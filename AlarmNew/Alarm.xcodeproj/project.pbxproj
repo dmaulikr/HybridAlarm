@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0F004091BDFA91600767C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004081BDFA91600767C92 /* main.m */; };
+		B0F0040C1BDFA91600767C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0040B1BDFA91600767C92 /* AppDelegate.m */; };
+		B0F004121BDFA91600767C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F004101BDFA91600767C92 /* Main.storyboard */; };
+		B0F004141BDFA91600767C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F004131BDFA91600767C92 /* Assets.xcassets */; };
+		B0F004171BDFA91600767C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F004151BDFA91600767C92 /* LaunchScreen.storyboard */; };
+		B0F004221BDFA91700767C92 /* AlarmNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004211BDFA91700767C92 /* AlarmNewTests.m */; };
+		B0F0042D1BDFA91700767C92 /* AlarmNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0042C1BDFA91700767C92 /* AlarmNewUITests.m */; };
+		B0F0043E1BDFA9A300767C92 /* UtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0043D1BDFA9A300767C92 /* UtilityFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0043F1BDFA9A300767C92 /* UtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0043D1BDFA9A300767C92 /* UtilityFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004401BDFA9A300767C92 /* UtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0043D1BDFA9A300767C92 /* UtilityFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004441BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004431BDFAA7000767C92 /* AlarmListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004451BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004431BDFAA7000767C92 /* AlarmListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004461BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004431BDFAA7000767C92 /* AlarmListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0044A1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004491BDFAA9400767C92 /* AlarmEditTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0044B1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004491BDFAA9400767C92 /* AlarmEditTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0044C1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004491BDFAA9400767C92 /* AlarmEditTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004511BDFAAD700767C92 /* AlarmItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004501BDFAAD700767C92 /* AlarmItem.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004521BDFAAD700767C92 /* AlarmItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004501BDFAAD700767C92 /* AlarmItem.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004531BDFAAD700767C92 /* AlarmItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004501BDFAAD700767C92 /* AlarmItem.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004561BDFAAE100767C92 /* AlarmDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004551BDFAAE100767C92 /* AlarmDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004571BDFAAE100767C92 /* AlarmDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004551BDFAAE100767C92 /* AlarmDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004581BDFAAE100767C92 /* AlarmDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004551BDFAAE100767C92 /* AlarmDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0045B1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F004591BDFAAEA00767C92 /* alarmTone1.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F0045C1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F004591BDFAAEA00767C92 /* alarmTone1.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F0045D1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F004591BDFAAEA00767C92 /* alarmTone1.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F0045E1BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F0045A1BDFAAEA00767C92 /* alarmTone2.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F0045F1BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F0045A1BDFAAEA00767C92 /* alarmTone2.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F004601BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0F0045A1BDFAAEA00767C92 /* alarmTone2.mp3 */; settings = {ASSET_TAGS = (); }; };
+		B0F004651BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004641BDFAB7400767C92 /* AlarmClockTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004661BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004641BDFAB7400767C92 /* AlarmClockTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004671BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004641BDFAB7400767C92 /* AlarmClockTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0046A1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004691BDFAB8400767C92 /* SnoozeTimeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0046B1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004691BDFAB8400767C92 /* SnoozeTimeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0046C1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004691BDFAB8400767C92 /* SnoozeTimeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0046F1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0046E1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004701BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0046E1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004711BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0046E1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004741BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004731BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004751BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004731BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004761BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004731BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004791BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004781BDFAC9100767C92 /* AlarmToneTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0047A1BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004781BDFAC9100767C92 /* AlarmToneTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0047B1BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004781BDFAC9100767C92 /* AlarmToneTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0047E1BDFACA500767C92 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0047D1BDFACA500767C92 /* ButtonTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F0047F1BDFACA500767C92 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0047D1BDFACA500767C92 /* ButtonTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004801BDFACA500767C92 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0047D1BDFACA500767C92 /* ButtonTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004831BDFACEE00767C92 /* NotificationLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004821BDFACEE00767C92 /* NotificationLabelView.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004841BDFACEE00767C92 /* NotificationLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004821BDFACEE00767C92 /* NotificationLabelView.m */; settings = {ASSET_TAGS = (); }; };
+		B0F004851BDFACEE00767C92 /* NotificationLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F004821BDFACEE00767C92 /* NotificationLabelView.m */; settings = {ASSET_TAGS = (); }; };
+		B0F4768E1BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4768D1BE0B8F500CC7286 /* AlarmListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F4768F1BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4768D1BE0B8F500CC7286 /* AlarmListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		B0F476901BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F4768D1BE0B8F500CC7286 /* AlarmListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0F0041E1BDFA91700767C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F003FC1BDFA91600767C92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F004031BDFA91600767C92;
+			remoteInfo = AlarmNew;
+		};
+		B0F004291BDFA91700767C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F003FC1BDFA91600767C92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F004031BDFA91600767C92;
+			remoteInfo = AlarmNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0F004041BDFA91600767C92 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F004081BDFA91600767C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0F0040A1BDFA91600767C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0F0040B1BDFA91600767C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0F004111BDFA91600767C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0F004131BDFA91600767C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0F004161BDFA91600767C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0F004181BDFA91600767C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F0041D1BDFA91700767C92 /* Alarm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alarm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F004211BDFA91700767C92 /* AlarmNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmNewTests.m; sourceTree = "<group>"; };
+		B0F004231BDFA91700767C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F004281BDFA91700767C92 /* Alarm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alarm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F0042C1BDFA91700767C92 /* AlarmNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmNewUITests.m; sourceTree = "<group>"; };
+		B0F0042E1BDFA91700767C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F0043C1BDFA9A300767C92 /* UtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityFunctions.h; sourceTree = "<group>"; };
+		B0F0043D1BDFA9A300767C92 /* UtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFunctions.m; sourceTree = "<group>"; };
+		B0F004411BDFAA0B00767C92 /* DesignSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignSheet.h; sourceTree = "<group>"; };
+		B0F004421BDFAA2900767C92 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B0F004431BDFAA7000767C92 /* AlarmListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListTableViewController.m; sourceTree = "<group>"; };
+		B0F004471BDFAA7800767C92 /* AlarmListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListTableViewController.h; sourceTree = "<group>"; };
+		B0F004481BDFAA9400767C92 /* AlarmEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmEditTableViewController.h; sourceTree = "<group>"; };
+		B0F004491BDFAA9400767C92 /* AlarmEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmEditTableViewController.m; sourceTree = "<group>"; };
+		B0F0044F1BDFAAD700767C92 /* AlarmItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmItem.h; sourceTree = "<group>"; };
+		B0F004501BDFAAD700767C92 /* AlarmItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmItem.m; sourceTree = "<group>"; };
+		B0F004541BDFAAE100767C92 /* AlarmDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmDataSource.h; sourceTree = "<group>"; };
+		B0F004551BDFAAE100767C92 /* AlarmDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmDataSource.m; sourceTree = "<group>"; };
+		B0F004591BDFAAEA00767C92 /* alarmTone1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarmTone1.mp3; sourceTree = "<group>"; };
+		B0F0045A1BDFAAEA00767C92 /* alarmTone2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarmTone2.mp3; sourceTree = "<group>"; };
+		B0F004621BDFAB1A00767C92 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0F004631BDFAB7400767C92 /* AlarmClockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockTableViewCell.h; sourceTree = "<group>"; };
+		B0F004641BDFAB7400767C92 /* AlarmClockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTableViewCell.m; sourceTree = "<group>"; };
+		B0F004681BDFAB8400767C92 /* SnoozeTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnoozeTimeTableViewCell.h; sourceTree = "<group>"; };
+		B0F004691BDFAB8400767C92 /* SnoozeTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnoozeTimeTableViewCell.m; sourceTree = "<group>"; };
+		B0F0046D1BDFAC5E00767C92 /* AlarmDaysTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmDaysTableViewCell.h; sourceTree = "<group>"; };
+		B0F0046E1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmDaysTableViewCell.m; sourceTree = "<group>"; };
+		B0F004721BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertMessageTableViewCell.h; sourceTree = "<group>"; };
+		B0F004731BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertMessageTableViewCell.m; sourceTree = "<group>"; };
+		B0F004771BDFAC9100767C92 /* AlarmToneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmToneTableViewCell.h; sourceTree = "<group>"; };
+		B0F004781BDFAC9100767C92 /* AlarmToneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmToneTableViewCell.m; sourceTree = "<group>"; };
+		B0F0047C1BDFACA500767C92 /* ButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewCell.h; sourceTree = "<group>"; };
+		B0F0047D1BDFACA500767C92 /* ButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewCell.m; sourceTree = "<group>"; };
+		B0F004811BDFACEE00767C92 /* NotificationLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationLabelView.h; sourceTree = "<group>"; };
+		B0F004821BDFACEE00767C92 /* NotificationLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationLabelView.m; sourceTree = "<group>"; };
+		B0F4768C1BE0B8F500CC7286 /* AlarmListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListTableViewCell.h; sourceTree = "<group>"; };
+		B0F4768D1BE0B8F500CC7286 /* AlarmListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0F004011BDFA91600767C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0041A1BDFA91700767C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F004251BDFA91700767C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0F003FB1BDFA91600767C92 = {
+			isa = PBXGroup;
+			children = (
+				B0F004061BDFA91600767C92 /* AlarmNew */,
+				B0F004201BDFA91700767C92 /* AlarmNewTests */,
+				B0F0042B1BDFA91700767C92 /* AlarmNewUITests */,
+				B0F004051BDFA91600767C92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0F004051BDFA91600767C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F004041BDFA91600767C92 /* Alarm.app */,
+				B0F0041D1BDFA91700767C92 /* Alarm.xctest */,
+				B0F004281BDFA91700767C92 /* Alarm.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0F004061BDFA91600767C92 /* AlarmNew */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0043A1BDFA93100767C92 /* Utility */,
+				B0F0040A1BDFA91600767C92 /* AppDelegate.h */,
+				B0F0040B1BDFA91600767C92 /* AppDelegate.m */,
+				B0F004471BDFAA7800767C92 /* AlarmListTableViewController.h */,
+				B0F004431BDFAA7000767C92 /* AlarmListTableViewController.m */,
+				B0F004481BDFAA9400767C92 /* AlarmEditTableViewController.h */,
+				B0F004491BDFAA9400767C92 /* AlarmEditTableViewController.m */,
+				B0F0044D1BDFAA9C00767C92 /* Alarm View Elements */,
+				B0F0044E1BDFAAB500767C92 /* Data Source */,
+				B0F004101BDFA91600767C92 /* Main.storyboard */,
+				B0F004131BDFA91600767C92 /* Assets.xcassets */,
+				B0F004151BDFA91600767C92 /* LaunchScreen.storyboard */,
+				B0F004181BDFA91600767C92 /* Info.plist */,
+				B0F004071BDFA91600767C92 /* Supporting Files */,
+			);
+			path = AlarmNew;
+			sourceTree = "<group>";
+		};
+		B0F004071BDFA91600767C92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F004621BDFAB1A00767C92 /* PrefixHeader.pch */,
+				B0F004081BDFA91600767C92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0F004201BDFA91700767C92 /* AlarmNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0F004211BDFA91700767C92 /* AlarmNewTests.m */,
+				B0F004231BDFA91700767C92 /* Info.plist */,
+			);
+			path = AlarmNewTests;
+			sourceTree = "<group>";
+		};
+		B0F0042B1BDFA91700767C92 /* AlarmNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0042C1BDFA91700767C92 /* AlarmNewUITests.m */,
+				B0F0042E1BDFA91700767C92 /* Info.plist */,
+			);
+			path = AlarmNewUITests;
+			sourceTree = "<group>";
+		};
+		B0F0043A1BDFA93100767C92 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0043C1BDFA9A300767C92 /* UtilityFunctions.h */,
+				B0F0043D1BDFA9A300767C92 /* UtilityFunctions.m */,
+				B0F004411BDFAA0B00767C92 /* DesignSheet.h */,
+				B0F004421BDFAA2900767C92 /* Common.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		B0F0044D1BDFAA9C00767C92 /* Alarm View Elements */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4768C1BE0B8F500CC7286 /* AlarmListTableViewCell.h */,
+				B0F4768D1BE0B8F500CC7286 /* AlarmListTableViewCell.m */,
+				B0F004631BDFAB7400767C92 /* AlarmClockTableViewCell.h */,
+				B0F004641BDFAB7400767C92 /* AlarmClockTableViewCell.m */,
+				B0F004681BDFAB8400767C92 /* SnoozeTimeTableViewCell.h */,
+				B0F004691BDFAB8400767C92 /* SnoozeTimeTableViewCell.m */,
+				B0F0046D1BDFAC5E00767C92 /* AlarmDaysTableViewCell.h */,
+				B0F0046E1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m */,
+				B0F004721BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.h */,
+				B0F004731BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m */,
+				B0F004771BDFAC9100767C92 /* AlarmToneTableViewCell.h */,
+				B0F004781BDFAC9100767C92 /* AlarmToneTableViewCell.m */,
+				B0F0047C1BDFACA500767C92 /* ButtonTableViewCell.h */,
+				B0F0047D1BDFACA500767C92 /* ButtonTableViewCell.m */,
+				B0F004811BDFACEE00767C92 /* NotificationLabelView.h */,
+				B0F004821BDFACEE00767C92 /* NotificationLabelView.m */,
+			);
+			name = "Alarm View Elements";
+			sourceTree = "<group>";
+		};
+		B0F0044E1BDFAAB500767C92 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				B0F004611BDFAAF500767C92 /* Alarm Tones */,
+				B0F0044F1BDFAAD700767C92 /* AlarmItem.h */,
+				B0F004501BDFAAD700767C92 /* AlarmItem.m */,
+				B0F004541BDFAAE100767C92 /* AlarmDataSource.h */,
+				B0F004551BDFAAE100767C92 /* AlarmDataSource.m */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		B0F004611BDFAAF500767C92 /* Alarm Tones */ = {
+			isa = PBXGroup;
+			children = (
+				B0F004591BDFAAEA00767C92 /* alarmTone1.mp3 */,
+				B0F0045A1BDFAAEA00767C92 /* alarmTone2.mp3 */,
+			);
+			name = "Alarm Tones";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0F004031BDFA91600767C92 /* Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F004311BDFA91700767C92 /* Build configuration list for PBXNativeTarget "Alarm" */;
+			buildPhases = (
+				B0F004001BDFA91600767C92 /* Sources */,
+				B0F004011BDFA91600767C92 /* Frameworks */,
+				B0F004021BDFA91600767C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarm;
+			productName = AlarmNew;
+			productReference = B0F004041BDFA91600767C92 /* Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0F0041C1BDFA91700767C92 /* AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F004341BDFA91700767C92 /* Build configuration list for PBXNativeTarget "AlarmTests" */;
+			buildPhases = (
+				B0F004191BDFA91700767C92 /* Sources */,
+				B0F0041A1BDFA91700767C92 /* Frameworks */,
+				B0F0041B1BDFA91700767C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F0041F1BDFA91700767C92 /* PBXTargetDependency */,
+			);
+			name = AlarmTests;
+			productName = AlarmNewTests;
+			productReference = B0F0041D1BDFA91700767C92 /* Alarm.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0F004271BDFA91700767C92 /* AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F004371BDFA91700767C92 /* Build configuration list for PBXNativeTarget "AlarmUITests" */;
+			buildPhases = (
+				B0F004241BDFA91700767C92 /* Sources */,
+				B0F004251BDFA91700767C92 /* Frameworks */,
+				B0F004261BDFA91700767C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F0042A1BDFA91700767C92 /* PBXTargetDependency */,
+			);
+			name = AlarmUITests;
+			productName = AlarmNewUITests;
+			productReference = B0F004281BDFA91700767C92 /* Alarm.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0F003FC1BDFA91600767C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Razorthink;
+				TargetAttributes = {
+					B0F004031BDFA91600767C92 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B0F0041C1BDFA91700767C92 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B0F004031BDFA91600767C92;
+					};
+					B0F004271BDFA91700767C92 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B0F004031BDFA91600767C92;
+					};
+				};
+			};
+			buildConfigurationList = B0F003FF1BDFA91600767C92 /* Build configuration list for PBXProject "Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0F003FB1BDFA91600767C92;
+			productRefGroup = B0F004051BDFA91600767C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0F004031BDFA91600767C92 /* Alarm */,
+				B0F0041C1BDFA91700767C92 /* AlarmTests */,
+				B0F004271BDFA91700767C92 /* AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0F004021BDFA91600767C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0045B1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */,
+				B0F004171BDFA91600767C92 /* LaunchScreen.storyboard in Resources */,
+				B0F0045E1BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */,
+				B0F004141BDFA91600767C92 /* Assets.xcassets in Resources */,
+				B0F004121BDFA91600767C92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F0041B1BDFA91700767C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0045C1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */,
+				B0F0045F1BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F004261BDFA91700767C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0045D1BDFAAEA00767C92 /* alarmTone1.mp3 in Resources */,
+				B0F004601BDFAAEA00767C92 /* alarmTone2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0F004001BDFA91600767C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F0047E1BDFACA500767C92 /* ButtonTableViewCell.m in Sources */,
+				B0F0046A1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */,
+				B0F004791BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */,
+				B0F004651BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */,
+				B0F004831BDFACEE00767C92 /* NotificationLabelView.m in Sources */,
+				B0F0043E1BDFA9A300767C92 /* UtilityFunctions.m in Sources */,
+				B0F0044A1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */,
+				B0F4768E1BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */,
+				B0F004741BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */,
+				B0F004511BDFAAD700767C92 /* AlarmItem.m in Sources */,
+				B0F004441BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */,
+				B0F0040C1BDFA91600767C92 /* AppDelegate.m in Sources */,
+				B0F004561BDFAAE100767C92 /* AlarmDataSource.m in Sources */,
+				B0F0046F1BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */,
+				B0F004091BDFA91600767C92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F004191BDFA91700767C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F004661BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */,
+				B0F4768F1BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */,
+				B0F004751BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */,
+				B0F004701BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */,
+				B0F0047A1BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */,
+				B0F0044B1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */,
+				B0F0043F1BDFA9A300767C92 /* UtilityFunctions.m in Sources */,
+				B0F004451BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */,
+				B0F0046B1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */,
+				B0F004221BDFA91700767C92 /* AlarmNewTests.m in Sources */,
+				B0F004571BDFAAE100767C92 /* AlarmDataSource.m in Sources */,
+				B0F004841BDFACEE00767C92 /* NotificationLabelView.m in Sources */,
+				B0F004521BDFAAD700767C92 /* AlarmItem.m in Sources */,
+				B0F0047F1BDFACA500767C92 /* ButtonTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F004241BDFA91700767C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F004671BDFAB7400767C92 /* AlarmClockTableViewCell.m in Sources */,
+				B0F476901BE0B8F500CC7286 /* AlarmListTableViewCell.m in Sources */,
+				B0F004761BDFAC7E00767C92 /* CustomAlertMessageTableViewCell.m in Sources */,
+				B0F004711BDFAC5E00767C92 /* AlarmDaysTableViewCell.m in Sources */,
+				B0F0047B1BDFAC9100767C92 /* AlarmToneTableViewCell.m in Sources */,
+				B0F0044C1BDFAA9400767C92 /* AlarmEditTableViewController.m in Sources */,
+				B0F004401BDFA9A300767C92 /* UtilityFunctions.m in Sources */,
+				B0F004461BDFAA7000767C92 /* AlarmListTableViewController.m in Sources */,
+				B0F0046C1BDFAB8400767C92 /* SnoozeTimeTableViewCell.m in Sources */,
+				B0F0042D1BDFA91700767C92 /* AlarmNewUITests.m in Sources */,
+				B0F004581BDFAAE100767C92 /* AlarmDataSource.m in Sources */,
+				B0F004851BDFACEE00767C92 /* NotificationLabelView.m in Sources */,
+				B0F004531BDFAAD700767C92 /* AlarmItem.m in Sources */,
+				B0F004801BDFACA500767C92 /* ButtonTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0F0041F1BDFA91700767C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F004031BDFA91600767C92 /* Alarm */;
+			targetProxy = B0F0041E1BDFA91700767C92 /* PBXContainerItemProxy */;
+		};
+		B0F0042A1BDFA91700767C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F004031BDFA91600767C92 /* Alarm */;
+			targetProxy = B0F004291BDFA91700767C92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0F004101BDFA91600767C92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F004111BDFA91600767C92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0F004151BDFA91600767C92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F004161BDFA91600767C92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0F0042F1BDFA91700767C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0F004301BDFA91700767C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0F004321BDFA91700767C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AlarmNew/PrefixHeader.pch;
+				INFOPLIST_FILE = AlarmNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNew;
+				PRODUCT_NAME = Alarm;
+			};
+			name = Debug;
+		};
+		B0F004331BDFA91700767C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AlarmNew/PrefixHeader.pch;
+				INFOPLIST_FILE = AlarmNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNew;
+				PRODUCT_NAME = Alarm;
+			};
+			name = Release;
+		};
+		B0F004351BDFA91700767C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlarmNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNewTests;
+				PRODUCT_NAME = Alarm;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm.app/Alarm";
+			};
+			name = Debug;
+		};
+		B0F004361BDFA91700767C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlarmNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNewTests;
+				PRODUCT_NAME = Alarm;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm.app/Alarm";
+			};
+			name = Release;
+		};
+		B0F004381BDFA91700767C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlarmNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNewUITests;
+				PRODUCT_NAME = Alarm;
+				TEST_TARGET_NAME = AlarmNew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0F004391BDFA91700767C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlarmNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rzt.com.AlarmNewUITests;
+				PRODUCT_NAME = Alarm;
+				TEST_TARGET_NAME = AlarmNew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0F003FF1BDFA91600767C92 /* Build configuration list for PBXProject "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F0042F1BDFA91700767C92 /* Debug */,
+				B0F004301BDFA91700767C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F004311BDFA91700767C92 /* Build configuration list for PBXNativeTarget "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F004321BDFA91700767C92 /* Debug */,
+				B0F004331BDFA91700767C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F004341BDFA91700767C92 /* Build configuration list for PBXNativeTarget "AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F004351BDFA91700767C92 /* Debug */,
+				B0F004361BDFA91700767C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F004371BDFA91700767C92 /* Build configuration list for PBXNativeTarget "AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F004381BDFA91700767C92 /* Debug */,
+				B0F004391BDFA91700767C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0F003FC1BDFA91600767C92 /* Project object */;
+}

@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Alarm
+//
+//  Created by Sunil Rao on 20/10/15.
+//  Copyright © 2015 Razorthink. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Common.h"
+#import "DesignSheet.h" 
+#import "UtilityFunctions.h"
+#import <AudioToolbox/AudioToolbox.h>
+@class UtilityFunctions;
+
+#endif
